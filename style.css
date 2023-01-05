@@ -1,9 +1,11 @@
-.slide{
+.carousel-background{
     background-color: #FEEAE9;
-    padding-left: 100px;
-    height: 450px;
+    
     border-radius: 10px;
     
+}
+.carousel-item{
+    padding: 20px 40px;
 }
 .pink{
     color: #FF136F;
@@ -18,4 +20,36 @@
 }
 .container{
     margin-bottom: 100px;
+}
+.cat-1, .cat-2, .cat-3{
+    padding: 10px 30px;
+    border-radius:10px;
+}
+.cat-1{
+    background-color: orange;
+}
+.cat-2{
+    background-color: orchid;
+}
+.cat-3{
+    background-color: blue;
+}
+.cat img{
+width: 100px;
+}
+.input-area{
+    background-color: #FEEAE9;
+    height: 300px;
+    border-radius: 10px;
+}
+.color-gray{
+    color: gray;
+}
+footer{
+    text-align: center;
+    font-size: 12px;
+}
+.card{
+    box-shadow: 5px 5px 10px lightgray;
+    border: none;
 }
